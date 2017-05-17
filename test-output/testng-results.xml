@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25527" started-at="2017-05-17T08:26:11Z" finished-at="2017-05-17T08:26:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25527" started-at="2017-05-17T08:26:11Z" finished-at="2017-05-17T08:26:36Z">
+      <class name="com.DOTMobileAutomation.testcase.Login_English">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.DOTMobileAutomation.testcase.Login_English@31ef45e3]" name="beforeSuite" is-config="true" duration-ms="347" started-at="2017-05-17T13:56:10Z" finished-at="2017-05-17T13:56:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.DOTMobileAutomation.testcase.Login_English@31ef45e3]" name="beforeMethod" is-config="true" duration-ms="21117" started-at="2017-05-17T13:56:11Z" finished-at="2017-05-17T13:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="login_English()[pri:0, instance:com.DOTMobileAutomation.testcase.Login_English@31ef45e3]" name="login_English" duration-ms="301" started-at="2017-05-17T13:56:32Z" finished-at="2017-05-17T13:56:32Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 285 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'KIMIAGARWAL', ip: '10.1.1.177', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{appPackage=dotrips.com.dotrips.qa, app=D:/Softwares/APK/News/app-uat-release.apk, networkConnectionEnabled=true, warnings={}, appiumVersion=1.4.13.1, appWaitActivity=com.dotrips.ui.activity.ActivityWalkThrough, databaseEnabled=false, deviceName=42005733dc4c9399, version=6.0.1, platform=LINUX, appActivity=com.dotrips.ui.activity.SplashActivity, desired={appPackage=dotrips.com.dotrips.qa, appActivity=com.dotrips.ui.activity.SplashActivity, app=D:/Softwares/APK/News/app-uat-release.apk, appiumVersion=1.4.13.1, appWaitActivity=com.dotrips.ui.activity.ActivityWalkThrough, browserName=, platformName=Android, deviceName=42005733dc4c9399, version=6.0.1}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: c27437be-1b19-4342-a6fc-ceb80a2c00b4
+*** Element info: {Using=id, value=dotrips.com.dotrips.qa:id/button_login_submit}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 285 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'KIMIAGARWAL', ip: '10.1.1.177', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{appPackage=dotrips.com.dotrips.qa, app=D:/Softwares/APK/News/app-uat-release.apk, networkConnectionEnabled=true, warnings={}, appiumVersion=1.4.13.1, appWaitActivity=com.dotrips.ui.activity.ActivityWalkThrough, databaseEnabled=false, deviceName=42005733dc4c9399, version=6.0.1, platform=LINUX, appActivity=com.dotrips.ui.activity.SplashActivity, desired={appPackage=dotrips.com.dotrips.qa, appActivity=com.dotrips.ui.activity.SplashActivity, app=D:/Softwares/APK/News/app-uat-release.apk, appiumVersion=1.4.13.1, appWaitActivity=com.dotrips.ui.activity.ActivityWalkThrough, browserName=, platformName=Android, deviceName=42005733dc4c9399, version=6.0.1}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: c27437be-1b19-4342-a6fc-ceb80a2c00b4
+*** Element info: {Using=id, value=dotrips.com.dotrips.qa:id/button_login_submit}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.DOTMobileAutomation.objectrepository.loginScreen.getLoginBtn(loginScreen.java:31)
+	at com.DOTMobileAutomation.testcase.Login_English.login_English(Login_English.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_English -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.DOTMobileAutomation.testcase.Login_English@31ef45e3]" name="afterMethod" is-config="true" duration-ms="4093" started-at="2017-05-17T13:56:32Z" finished-at="2017-05-17T13:56:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.DOTMobileAutomation.testcase.Login_English@31ef45e3]" name="afterSuite" is-config="true" duration-ms="312" started-at="2017-05-17T13:56:36Z" finished-at="2017-05-17T13:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.DOTMobileAutomation.testcase.Login_English -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
